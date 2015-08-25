@@ -1,4 +1,4 @@
-![POSTGRES PYTHON TEST](http://img.bhs4.com/4c/d/4cd2ef4478165dac409cc9da5832272c5d90862c_large.jpg "Python POSTGRES test")
+![POSTGRES PYTHON TEST](https://raw.githubusercontent.com/docker-library/docs/master/postgres/logo.png "Python POSTGRES test")
 
 Test Progres with Python
 ------------------------
