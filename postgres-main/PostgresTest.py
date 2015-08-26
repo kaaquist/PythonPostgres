@@ -58,8 +58,7 @@ class PostgresTest(object):
                 ADDRESS        CHAR(50),
                 SALARY         REAL
                 );
-            DROP TABLE IF EXISTS COMPANY;
-                """
+            """
 
         cur.execute(query)
         cur.close()
