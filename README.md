@@ -23,7 +23,7 @@ Install pip for python.
 	- you should see your prompt change to have this in front: **(PythonPostgres)**.
 
 5. Install requirements for the project to work.
-	- `pip install requirements.txt`
+	- `pip install -r requirements.txt`
 
 6. You should now be up and running. 
 
