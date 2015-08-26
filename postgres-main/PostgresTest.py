@@ -5,9 +5,9 @@ from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
 
 
 class PostgresTest(object):
-    '''
+    """
     This is a python class created to test queries
-    '''
+    """
     __con = None
     __cur = None
     __dbuser = None
@@ -21,18 +21,17 @@ class PostgresTest(object):
         self.__dbhost = 'localhost'
 
     def openConnection(self, db_name='testdatabase_kasper'):
-        '''
+        """
         :param db_name: database to connect to.
-        :return: database connection.
-        '''
+        """
         print 'Open connection'
         self.__con = connect(dbname=db_name, user=self.__dbuser, host=self.__dbhost, password=self.__dbpass)
         self.__con.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT)
 
     def closeConnection(self):
-        '''
+        """
         Closes the database connection.
-        '''
+        """
 
         print 'Close connection'
         self.__con.close()
